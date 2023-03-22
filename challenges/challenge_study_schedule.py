@@ -1,8 +1,5 @@
-from typing import List, Tuple
-
-
 def study_schedule(
-    permanence_period: List[Tuple[int, int]], target_time: int
+    permanence_period: list[tuple[int, int]], target_time: int
 ) -> int:
     if not isinstance(target_time, int):
         return None
